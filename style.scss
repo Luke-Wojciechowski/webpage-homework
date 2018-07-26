@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
-*{outline: red 1px solid;}
+*{/* outline: red 1px solid; */}
 .text-center{text-align:center}
 .row:before, .row:after {
 	content:"";
@@ -248,12 +248,13 @@ body{
 	margin-top:50px;
 	&-text{
 		display: inline-block;
-		text-size:15px;
+		font-size:15px;
 		color:$main-color;
 	}
 }
 .fa-play-circle-o{
 	color:$main-color;
 	margin-left:10px;
-	transform:translateY(-25%);
+	font-size:27px;
+	transform:translateY(12.5%)
 }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900");
 * {
-  outline: red 1px solid; }
+  /* outline: red 1px solid; */ }
 
 .text-center {
   text-align: center; }
@@ -419,12 +419,13 @@ body {
   margin-top: 50px; }
   .laptop-text__link-text {
     display: inline-block;
-    text-size: 15px;
+    font-size: 15px;
     color: #ed145b; }
 
 .fa-play-circle-o {
   color: #ed145b;
   margin-left: 10px;
-  transform: translateY(-25%); }
+  font-size: 27px;
+  transform: translateY(12.5%); }
 
 /*# sourceMappingURL=style.css.map */
