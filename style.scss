@@ -258,3 +258,11 @@ body{
 	font-size:27px;
 	transform:translateY(12.5%)
 }
+.laptop-img{
+	margin-top:60px;
+}
+@media(max-width: 1349px){
+	.laptop-part .container {margin:0 auto}
+	.laptop-text{text-align: center;}
+	.laptop-text__line{width: 100%;}
+}
