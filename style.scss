@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
-*{outline: red 1px solid;}
+*{/* outline: red 1px solid; */}
 .text-center{text-align:center}
 .row:before, .row:after {
 	content:"";
@@ -124,7 +124,7 @@ $main-color:#ed145b;
 $sec-color:#5a5a5a;
 $thd-color:white;
 $page-color:#f4f4f4;
-$main-size:15px;
+$main-size:0.9375rem;
 body{
 	margin:0;
 	font-family:$main-font;

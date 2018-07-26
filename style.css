@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900");
 * {
-  outline: red 1px solid; }
+  /* outline: red 1px solid; */ }
 
 .text-center {
   text-align: center; }
@@ -375,7 +375,7 @@ body {
   height: 50px;
   border: none;
   border-radius: 100px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
   transform: translateX(-50%);
   margin: 70px 0 8% 50%; }
@@ -412,14 +412,14 @@ body {
   margin: 40px 0 50px 0; }
 
 .laptop-text__text {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 300; }
 
 .laptop-text__link {
   margin-top: 50px; }
   .laptop-text__link-text {
     display: inline-block;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: #ed145b; }
 
 .fa-play-circle-o {
@@ -459,7 +459,7 @@ body {
 
 .service__text-text {
   font-weight: 300;
-  font-size: 15px; }
+  font-size: 0.9375rem; }
 
 .service__icons {
   margin-top: 100px; }
