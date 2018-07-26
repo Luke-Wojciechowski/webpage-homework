@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
-*{/* outline: red 1px solid; */}
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
+*{outline: red 1px solid;}
 .text-center{text-align:center}
 .row:before, .row:after {
 	content:"";
@@ -123,6 +123,7 @@ $main-font: 'Lato', sans-serif;
 $main-color:#ed145b;
 $sec-color:#5a5a5a;
 $thd-color:white;
+$page-color:#f4f4f4;
 body{
 	margin:0;
 	font-family:$main-font;
@@ -216,4 +217,43 @@ body{
 	transform: rotateZ(-0.5deg);
 	z-index: -1;
 	display: inline-block;
+}
+/* part with laptop */
+.laptop-part{
+	width: 100%;
+	background-color: $page-color;
+	height: 650px;
+	z-index:-2;
+	position: relative;
+}
+.laptop-text{
+	margin-top:140px;
+}
+.laptop-text__header{
+	font-size:38px;
+	font-weight:300;
+	font-style:italic;
+}
+.laptop-text__line{
+	height: 2px;
+	width: 200px;
+	background-color: $main-color;
+	margin:40px 0 50px 0;
+}
+.laptop-text__text{
+	font-size:15px;
+	font-weight:300;
+}
+.laptop-text__link{
+	margin-top:50px;
+	&-text{
+		display: inline-block;
+		text-size:15px;
+		color:$main-color;
+	}
+}
+.fa-play-circle-o{
+	color:$main-color;
+	margin-left:10px;
+	transform:translateY(-25%);
 }
