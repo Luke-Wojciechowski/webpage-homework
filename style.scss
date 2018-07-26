@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
-*{/* outline: red 1px solid; */}
+*{outline: red 1px solid;}
 .text-center{text-align:center}
 .row:before, .row:after {
 	content:"";
@@ -124,6 +124,7 @@ $main-color:#ed145b;
 $sec-color:#5a5a5a;
 $thd-color:white;
 $page-color:#f4f4f4;
+$main-size:15px;
 body{
 	margin:0;
 	font-family:$main-font;
@@ -204,7 +205,7 @@ body{
 	height:50px;
 	border:none;
 	border-radius:100px;
-	font-size:15px;
+	font-size:$main-size;
 	font-weight:700;
 	transform:translateX(-50%);
 	margin: 70px 0 8% 50%;
@@ -241,14 +242,14 @@ body{
 	margin:40px 0 50px 0;
 }
 .laptop-text__text{
-	font-size:15px;
+	font-size:$main-size;
 	font-weight:300;
 }
 .laptop-text__link{
 	margin-top:50px;
 	&-text{
 		display: inline-block;
-		font-size:15px;
+		font-size:$main-size;
 		color:$main-color;
 	}
 }
@@ -259,10 +260,30 @@ body{
 	transform:translateY(12.5%)
 }
 .laptop-img{
-	margin-top:60px;
+	margin:60px 0 50px;
 }
 @media(max-width: 1349px){
 	.laptop-part .container {margin:0 auto}
 	.laptop-text{text-align: center;}
 	.laptop-text__line{width: 100%;}
+}
+/* Our service part */
+.service-part{
+	height: 700px;
+	display: block;
+}
+.service__text-header{
+	font-size:38px;
+	font-weight:300;
+	font-style:italic;
+}
+.service__text-line{height: 2px;
+	width: 200px;
+	background-color: $main-color;
+	margin:0 50%;
+	transform:translateX(-50%);
+}
+.service__text-text{
+	font-weight:300;
+	font-size:$main-size
 }

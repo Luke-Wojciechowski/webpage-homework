@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900");
 * {
-  /* outline: red 1px solid; */ }
+  outline: red 1px solid; }
 
 .text-center {
   text-align: center; }
@@ -429,7 +429,7 @@ body {
   transform: translateY(12.5%); }
 
 .laptop-img {
-  margin-top: 60px; }
+  margin: 60px 0 50px; }
 
 @media (max-width: 1349px) {
   .laptop-part .container {
@@ -440,5 +440,25 @@ body {
 
   .laptop-text__line {
     width: 100%; } }
+/* Our service part */
+.service-part {
+  height: 700px;
+  display: block; }
+
+.service__text-header {
+  font-size: 38px;
+  font-weight: 300;
+  font-style: italic; }
+
+.service__text-line {
+  height: 2px;
+  width: 200px;
+  background-color: #ed145b;
+  margin: 0 50%;
+  transform: translateX(-50%); }
+
+.service__text-text {
+  font-weight: 300;
+  font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
