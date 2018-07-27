@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
 *{/* outline: red 1px solid; */}
 .text-center{text-align:center}
 .row:before, .row:after {
@@ -120,6 +121,7 @@
 	.col-sm-offset-11 {margin-left: 91.66%;}
 }
 $main-font: 'Lato', sans-serif;
+$title-font:'Merriweather Sans', sans-serif;
 $main-color:#ed145b;
 $sec-color:#5a5a5a;
 $thd-color:white;
@@ -288,3 +290,27 @@ body{
 	font-size:$main-size;
 }
 .service__icons{margin-top: 100px;}
+/* slider */
+.slider{
+	height: 500px;
+	background-image: url(./nav-img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: absolute;
+	&__text{
+		color:$main-color;
+		font-family: $title-font;
+		font-size:158px;
+		font-weight:700;
+		display: inline-block;
+		transform:translate(50%,-10% ); 
+		&-text{
+			font-size:25px;
+			font-family:$main-font;
+			color:#fff;
+			font-weight:400;
+			margin:50px 0;
+		}
+	}
+}

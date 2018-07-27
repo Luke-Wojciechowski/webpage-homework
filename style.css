@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700");
 * {
   /* outline: red 1px solid; */ }
 
@@ -463,5 +464,27 @@ body {
 
 .service__icons {
   margin-top: 100px; }
+
+/* slider */
+.slider {
+  height: 500px;
+  background-image: url(./nav-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: absolute; }
+  .slider__text {
+    color: #ed145b;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 158px;
+    font-weight: 700;
+    display: inline-block;
+    transform: translate(50%, -10%); }
+    .slider__text-text {
+      font-size: 25px;
+      font-family: "Lato", sans-serif;
+      color: #fff;
+      font-weight: 400;
+      margin: 50px 0; }
 
 /*# sourceMappingURL=style.css.map */
