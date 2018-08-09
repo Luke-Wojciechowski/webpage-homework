@@ -352,7 +352,8 @@ body {
       transform: translate(0, 0); }
     .icons-text {
       display: block;
-      transform: translate(0, 0); } }
+      transform: translate(0, 0); } 
+  }
 /* join us */
 .join {
   height: 200px;
