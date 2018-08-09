@@ -2,75 +2,402 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<!-- header -->
-	<nav class="navbar">
-		<div class="container">
-				<div>
-				<div class="navbar__brand">///<div class="brand-text">Mache</div></div>
-				<ul class="navbar__list">
-					<li class="navbar__item"><a href="#" class="navbar-link link-home">Home</a></li>
-					<li class="navbar__item"><a href="#" class="navbar-link">About Us</a></li>
-					<li class="navbar__item"><a href="#" class="navbar-link">Our Services</a></li>
-					<li class="navbar__item"><a href="#" class="navbar-link">Prices</a></li>
-					<li class="navbar__item"><a href="#" class="navbar-link">Contact</a></li>
+	<nav class="header text-center">
+		<div class="container ">
+			<div class="navbar ">
+				<div class="navbar__brand">///Mache</div>
+				<ul class="navbar__list " style="padding: 0"> <!-- sorry ze tutaj ale nie chce mi sie tego szukac -->
+					<li class="nav-item"><a class="nav-link other-color" href="#">Home</a></li>
+					
+					<li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+					
+					<li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+					
+					<li class="nav-item"><a class="nav-link" href="#">Prices</a></li>
+					
+					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
 				</ul>
 			</div>
-			<div class="nav__header"><div class="nav__header-bold">Mache</div> FREE psd Template</div>
-			<div class="header-line"></div>
-			<div class="nav-text"><p class="text-center">Elegant and clean PSD template, which you can download and use for free! <br>You can easily modify the design to make it your own and help you get your project running faster.</p></div>
-			<button class="btn-nav">Show more</button>
-		</div>
-		<div class="navbar-decoration"></div>
-	</nav>
-	<section class="laptop-part">
-		<div class="container">
-			<div class="row">
-				<div class="col-6 col-sm-12 col-md-12 laptop-text">	
-						<h1 class="laptop-text__header">Powerfull PSD template <br> available for free!</h1>
-						<div class="laptop-text__line"></div>
-						<p class="laptop-text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim<br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br> aliquip ex ea commodo consequat. Duis aute irure dolor in<br> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa </p>
-						<div class="laptop-text__link">
-							<p class="laptop-text__link-text">See the video</p>
-							<i class="fa fa-play-circle-o " aria-hidden="true"></i>
-						</div>
+			<div class="header__description text-center">
+				<div class="header__title"><h1>Mache</h1> FREE psd Template</div>
+				<div class="line"></div>
+				<div class="header__text">
+					Elegant and clean PSD template, which you can download and use for free!<br>
+					You can easily modify the design to make it your own and help you get your project running faster.
 				</div>
-					<div class="col-6 col-sm-12 col-md-12  laptop-img">
-						<img class="laptop-img" src="./laptop.png" >
-						<!-- wiem png...ale nie chce mi sie tego sklejac... 4 elementy jpg... a jak biore calosc w jpg to mam biale tło, a nie brak tła jak tutaj -->
+				<button class="header-btn">Show More</button>
+			</div>
+		</div>
+	</nav>
+		<div class="header-decoration"></div>
+	<section class="laptop">
+		<div class="container laptop-container">
+			<div class="row">
+				<div class="col-6 col-md-12 col-sm-12">
+					<div class="laptop-title">Powerfull PSD template available  for free!</div>
+					<div class="line"></div>
+					<div class="laptop-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br>ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br> aliquip ex ea commodo consequat. Duis aute irure dolor in<br>  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
 					</div>
+					<div class="laptop-link">
+						<div class="laptop-link__text">See the video</div>
+						<i class="fa fa-play-circle-o " aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="col-6 col-md-12"><img src="laptop.png" class="laptop-img"></div>
 			</div>
 		</div>
 	</section>
-	<section class="service-part">
-		<div class="container">
-			<div class="service__text text-center">
-				<h1 class="service__text-header">Our Services</h1>
-				<div class="service__text-line"></div>
-				<p class="service__text-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-			</div>
-			<div class="service__icons">
-				<div class="row">
-					<div class="col-3 col-sm-7 col-sm-offset-5 col-md-4 col-md-offset-2 col-lg-3"><img src="./icon-1.png"></div>
-					<div class="col-3 col-sm-7 col-sm-offset-5 col-md-4 col-md-offset-2 col-lg-3"><img src="./icon-2.png"></div>
-					<div class="col-3 col-sm-7 col-sm-offset-5 col-md-4 col-md-offset-2 col-lg-3"><img src="./icon-3.png"></div>
-					<div class="col-3 col-sm-7 col-sm-offset-5 col-md-4 col-md-offset-2 col-lg-3"><img src="./icon-4.png"></div>
+	<section class="services">
+		<div class="container services-container ">
+			<div class="services-description text-center">
+				<div class="services-title">Our Services</div>
+				<div class="line"></div>
+				<div class="services-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 				</div>
+			</div>
+			<div class="row">
+				<div class="services-icon col-3 col-md-6 col-sm-12 text-center"><img src="./icon-1.png"></div>
+				<div class="services-icon col-3 col-md-6 col-sm-12 text-center"><img src="./icon-2.png"></div>
+				<div class="services-icon col-3 col-md-6 col-sm-12 text-center"><img src="./icon-3.png"></div>
+				<div class="services-icon col-3 col-md-6 col-sm-12 text-center"><img src="./icon-4.png"></div>
 			</div>
 		</div>
 	</section>
 	<section class="slider">
+		<div class="container">			
+			<i class="fa fa-angle-left" aria-hidden="true"></i>
+			<i class="fa fa-angle-right" aria-hidden="true"></i>
+			<div class="slider__content text-center">
+				<h1>""</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor<br> 
+					incididunt ut labore tet dolore magna aliqua.  Ut enim ad minim veniam,<br> 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex. 
+				</p>
+				<h1>""</h1>
+			</div>
+		</div>
+	</section>
+	<section class="prices ">
+		<div class="container text-center">
+			<div class="prices__text text-center">
+				<div class="prices__text-title">Check Our Prices</div>
+				<div class="line"></div>
+				<div class="prices__text-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br>
+				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+			</div>
+			</div>
+			<div class="prices__table row">
+				<!-- first offert -->
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="offert">
+						<div class="offert-top">
+							$<h2>19</h2><br>per month<br>
+							<button class="offert-btn-mid">Standard</button>
+						</div>
+						<div class="offert-bottom">
+							<ul>
+								<li><a href="">5 Projects</a></li>
+								<li><a href="">200 MB Storage</a></li>
+								<li><a href="">Notification settings</a></li>
+								<li><a href="">Password protection</a></li>
+							</ul>
+						</div>
+							<button class="offert-btn-bottom">buy now</button>
+					</div>
+				</div>
+			<!-- second offert -->
+			<div class="col-3 col-md-6 col-sm-12">
+					<div class="offert">
+						<div class="offert-top top-other">
+							$<h2>39</h2><br>per month<br>
+							<button class="offert-btn-mid">Business</button>
+						</div>
+						<div class="offert-bottom">
+							<ul>
+								<li><a href="">15 Projects</a></li>
+								<li><a href="">1 GB Storage</a></li>
+								<li><a href="">Notification settings</a></li>
+								<li><a href="">Password protection</a></li>
+							</ul>
+						</div>
+							<button class="offert-btn-bottom">buy now</button>
+					</div>
+				</div>
+				<!-- third offert -->
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="offert">
+						<div class="offert-top">
+							$<h2>59</h2><br>per month<br>
+							<button class="offert-btn-mid">Premium</button>
+						</div>
+						<div class="offert-bottom">
+							<ul>
+								<li><a href="">30 Projects</a></li>
+								<li><a href="">2 GB Storage</a></li>
+								<li><a href="">Notification settings</a></li>
+								<li><a href="">Password protection</a></li>
+							</ul>
+						</div>
+							<button class="offert-btn-bottom">buy now</button>
+					</div>
+				</div>
+				<!-- forth offert -->
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="offert">
+						<div class="offert-top">
+							$<h2>99</h2><br>per month<br>
+							<button class="offert-btn-mid">Unlimited</button>
+						</div>
+						<div class="offert-bottom">
+							<ul>
+								<li><a href="">Unlimited Projects</a></li>
+								<li><a href="">Unlimited Storage</a></li>
+								<li><a href="">Notification settings</a></li>
+								<li><a href="">Password protection</a></li>
+							</ul>
+						</div>
+							<button class="offert-btn-bottom">buy now</button>
+					</div>
+				</div>
+				<!-- end of offerts -->
+			</div>
+		</div>	
+	</section>
+	<section class="icons">
 		<div class="container">
-			<div class="slider__text text-center">
-			„<div class="slider__text-text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor<br>
-				incididunt ut labore tet dolore magna aliqua.  Ut enim ad minim veniam,<br> 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</div>”
+			<div class="row">
+				<!-- resolution -->
+				<div class="col-4 col-md-12 col-sm-12">
+					<img src="./resolution.png" class="icons-img">
+					<div class="icons-title">High resolution</div>
+					<div class="icons-text">
+						Lorem ipsum dolor sit amet,  adipisicing<br>
+						elit, sed do eiusmod tempor incididunt<br>
+						ut labore et dolore magna aliqua. Ut 
+					</div>
+				</div>
+				<!-- photography -->
+				<div class="col-4 col-md-12 col-sm-12">
+					<img src="./photography.png" class="icons-img">
+					<div class="icons-title">Photography</div>
+					<div class="icons-text">
+						Lorem ipsum dolor sit amet,  adipisicing<br>
+						elit, sed do eiusmod tempor incididunt<br>
+						ut labore et dolore magna aliqua. Ut 
+					</div>
+				</div>
+				<!-- customize -->
+				<div class="col-4 col-md-12 col-sm-12">
+					<img src="./customize.png" class="icons-img">
+					<div class="icons-title">Easy to Cusomize</div>
+					<div class="icons-text">
+						Lorem ipsum dolor sit amet,  adipisicing<br>
+						elit, sed do eiusmod tempor incididunt<br>
+						ut labore et dolore magna aliqua. Ut 
+					</div>
+				</div>
+				<!-- support -->
+				<div class="col-4 col-md-12 col-sm-12">
+					<img src="./support.png" class="icons-img">
+					<div class="icons-title">24/7 support</div>
+					<div class="icons-text">
+						Lorem ipsum dolor sit amet,  adipisicing<br>
+						elit, sed do eiusmod tempor incididunt<br>
+						ut labore et dolore magna aliqua. Ut 
+					</div>
+				</div>
+				<!-- theme -->
+				<div class="col-4 col-md-12 col-sm-12">
+					<img src="./theme.png" class="icons-img">
+					<div class="icons-title">powerfull theme</div>
+					<div class="icons-text">
+						Lorem ipsum dolor sit amet,  adipisicing<br>
+						elit, sed do eiusmod tempor incididunt<br>
+						ut labore et dolore magna aliqua. Ut 
+					</div>
+				</div>
+				<!-- optimization -->
+				<div class="col-4 col-md-12 col-sm-12">
+					<img src="./optimization.png" class="icons-img">
+					<div class="icons-title">seo optimization</div>
+					<div class="icons-text">
+						Lorem ipsum dolor sit amet,  adipisicing<br>
+						elit, sed do eiusmod tempor incididunt<br>
+						ut labore et dolore magna aliqua. Ut 
+					</div>
+				</div>
+				<!-- end of icons -->
+			</div>
+		</div>
+	</section>
+	<section class="join">
+		<div class="container text-center">
+			<div class="join-text"><p>Became A Part Of</p> <h4>Mache</h4><p> Community Today</p></div>
+			<button class="join-btn"> Join us</button>
+		</div>
+	</section>
+	<section class="updates">
+		<div class="container text-center">
+			<div class="updates__content">
+				<div class="updates-title">Our Latest Updates</div>
+				<div class="line"></div>
+				<div class="updates-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+				</div>
+			</div>
+			<div class="updates__tabel">
+				<div class="row">
+					<!-- updates 1 -->
+					<div class="col-4 col-md-12 col-sm-12 text-center">
+						<div class="text-center updates-bgc-color">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							<div class="updates__tabel-img tabel-img-1 ">
+								<img src="./updates-dec-1.png" style="position: relative; z-index: 0;">
+							</div>
+						</div>
+						<div class="updates__tabel-content">
+							<div class="updates__tabel-title">Lorem ipsum dolor sit</div>
+							<div class="updates__tabel-text">
+								Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod tempor incididunt ut labore et 
+							</div>
+						</div>
+					</div>
+					<!-- updates 2 -->
+					<div class="col-4 col-md-12 col-sm-12 text-center">
+						<div class="text-center updates-bgc-color">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							<div class="updates__tabel-img tabel-img-2 ">
+								<img src="./updates-dec-2.png" style="position: relative; z-index: 0;">
+							</div>
+						</div>
+						<div class="updates__tabel-content">
+							<div class="updates__tabel-title">Lorem ipsum dolor sit</div>
+							<div class="updates__tabel-text">
+								Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod tempor incididunt ut labore et 
+							</div>
+						</div>
+					</div>
+					<!-- updates 3 -->
+					<div class="col-4 col-md-12 col-sm-12 text-center">
+						<div class="text-center updates-other-bgc updates-bgc-color">
+								<i class="search_active fa fa-search " aria-hidden="true"></i>
+							<div class="updates__tabel-img tabel-img-3 ">
+							</div>
+						</div>
+						<div class="updates__tabel-content">
+							<div class="updates__tabel-title">Lorem ipsum dolor sit</div>
+							<div class="updates__tabel-text">
+								Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod tempor incididunt ut labore et 
+							</div>
+						</div>
+					</div>
+					<!-- updates 4 -->
+					<div class="col-4 col-md-12 col-sm-12 text-center">
+						<div class="text-center updates-bgc-color">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							<div class="updates__tabel-img tabel-img-4 ">
+								<img src="./updates-dec-4.png" style="position: relative; z-index: 0;">
+							</div>
+						</div>
+						<div class="updates__tabel-content">
+							<div class="updates__tabel-title">Lorem ipsum dolor sit</div>
+							<div class="updates__tabel-text">
+								Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod tempor incididunt ut labore et 
+							</div>
+						</div>
+					</div>
+					<!-- updates 5 -->
+					<div class="col-4 col-md-12 col-sm-12 text-center">
+						<div class="text-center updates-bgc-color">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							<div class="updates__tabel-img tabel-img-5 ">
+								<img src="./updates-dec-5.png" style="position: relative; z-index: 0;">
+							</div>
+						</div>
+						<div class="updates__tabel-content">
+							<div class="updates__tabel-title">Lorem ipsum dolor sit</div>
+							<div class="updates__tabel-text">
+								Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod tempor incididunt ut labore et 
+							</div>
+						</div>
+					</div>
+					<!-- updates 6 -->
+					<div class="col-4 col-md-12 col-sm-12 text-center">
+						<div class="text-center updates-bgc-color">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							<div class="updates__tabel-img tabel-img-6 ">
+								<img src="./updates-dec-6.png" style="position: relative; z-index: 0;">
+							</div>
+						</div>
+						<div class="updates__tabel-content">
+							<div class="updates__tabel-title">Lorem ipsum dolor sit</div>
+							<div class="updates__tabel-text">
+								Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod tempor incididunt ut labore et 
+							</div>
+						</div>
+					</div>
+					<!-- end of updates -->
+				</div>
+			</div>	
+			<div class="show">
+				<h1>show more</h1>
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+		</div>
+	</section>
+	<section class="template text-center">
+		<div class="container template-container text-center">
+			<div class="template-title ">Mache Free PSD Template</div>
+			<div class="line"></div>
+			<div class="template-text text-center">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br>
+				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br>
+				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br> 
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br> 
+				sunt in culpa qui officia deserunt mollit anim id est laborum. 
+			</div>
+			<div class="template-btn">Show more</div>
+		</div>
+	</section>
+	<section class="screen_shot">
+		<div class="container">
+			<div class="row">
+				<div class="col-6"><img src="./screen.png"></div>
+				<div class="col-6">
+					<div class="screen_shot__content">
+						<div class="screen_shot-title">
+							Please share some love<br>
+							by appreciate it and download!</div>
+						<div class="line"></div>
+						<div class="screen_shot-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br>
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim<br>
+							ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br> 
+							aliquip ex ea commodo consequat. Duis aute irure dolor in<br> 
+							reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br> 
+							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+						</div>
+						<div class="screen_shot-btn text-center">Download Now</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="container">
+			<div class="footer__copyright">© 2015 COPYRIGHT MACHE TEMPLATE</div>
+			<div class="footer__designed">
+				<p>Design By</p>
+				<img src="./footer__logo.png">
 			</div>
 		</div>
 	</section>
